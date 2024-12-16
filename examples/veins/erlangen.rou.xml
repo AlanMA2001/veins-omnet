@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/16/24 15:16:54 by Eclipse SUMO duarouter Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="E:/Alan/SMESTRE/inte/veins-veins-5.1/examples/veins/erlangen.net.xml"/>
+        <route-files value="E:/Alan/SMESTRE/inte/veins-veins-5.1/examples/veins/trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="E:/Alan/SMESTRE/inte/veins-veins-5.1/examples/veins/erlangen.rou.xml"/>
+        <alternatives-output value="E:/Alan/SMESTRE/inte/veins-veins-5.1/examples/veins/erlangen.rou.alt.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="myType" maxSpeed="19.44" vClass="passenger"/>
+    <vehicle id="0" type="myType" depart="0.00">
+        <route edges="44069041#0 44069041#1 5931612 30350450#0 30350450#1 30350450#2 4006702#0 31255203#0 -31241851#2 -31241851#1 -31241851#0 -31241848"/>
+    </vehicle>
+    <vehicle id="1" type="myType" depart="0.00">
+        <route edges="-4006675 -23605600#1 4006674#4 4006687 32270595 33174302#0 33174302#1 4686970#0 4686970#1 122161381 30350448 8364476 30350450#0 30350450#1 30350450#2 4006702#0 4006702#1 -4006702#1"/>
+    </vehicle>
+    <vehicle id="2" type="myType" depart="0.00">
+        <route edges="-126606716 126606716 113939242#0 113939242#1 -25398494#0 4006693#0 4006693#1 -10419402"/>
+    </vehicle>
+    <vehicle id="3" type="myType" depart="0.00">
+        <route edges="-39539626 -5445204#2 -5445204#1 113939244#2 -126606716 23339459 30405358#1 85355912 85355911#0 85355911#1 30405356 5931612 30350450#0 30350450#1 30350450#2 4006702#0 28613737 94344941 94344940#0 94344940#2 -54105725"/>
+    </vehicle>
+    <vehicle id="4" type="myType" depart="0.00">
+        <route edges="4099309 4900739#1 4900739#2 4900741 35842306#0 35842306#1 4047446#0 4047446#1 25472079 30405352 30350445 -33174302#1 -33174302#0 -29900565#3 -29900565#2 -29900565#1 -29900565#0 -4006690"/>
+    </vehicle>
+</routes>

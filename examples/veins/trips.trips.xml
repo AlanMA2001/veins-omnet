@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 12/16/24 15:16:54 by Eclipse SUMO duarouter Version 1.3.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="E:/Alan/SMESTRE/inte/veins-veins-5.1/examples/veins/erlangen.net.xml"/>
+        <additional-files value="E:/Alan/SMESTRE/inte/veins-veins-5.1/examples/veins/type.add.xml"/>
+        <route-files value="E:/Alan/SMESTRE/inte/veins-veins-5.1/examples/veins/trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="E:/Alan/SMESTRE/inte/veins-veins-5.1/examples/veins/trips.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="400.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="myType" maxSpeed="19.44" vClass="passenger"/>
+    <trip id="0" type="myType" depart="0" from="44069041#0" to="-31241848"/>
+    <trip id="1" type="myType" depart="0" from="-4006675" to="-4006702#1"/>
+    <trip id="2" type="myType" depart="0" from="-126606716" to="-10419402"/>
+    <trip id="3" type="myType" depart="0" from="-39539626" to="-54105725"/>
+    <trip id="4" type="myType" depart="0" from="4099309" to="-4006690"/>
+</routes>
